@@ -1,0 +1,196 @@
+* {margin: 0;padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+/*  style the topbar  */
+.topbar {
+    margin: 0;
+    padding: 0;
+    background-color:#0528b8 ;
+}
+/*  style the topbar icon  */ 
+i {
+    margin: 10px;
+    color: white;
+}
+/*  style the topbar login(MIT TELLMORE)  */
+.login {
+    margin: 10px;
+    color: #e4f9ff;
+}
+/*  style the navbar */ 
+.navbar {
+    background-color: #434bd2 !important;
+}
+/*  style the navbar item */ 
+.nav-item a {
+    color: #e4f9ff !important;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+/*  style the juletilbud section */ 
+.juletilbud {
+    background-color: #ff2a3c;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding-bottom: 50px;    
+}
+/*  style the juletilbud header */ 
+.juletilbud-header-text {    
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #e4f9ff;
+    padding-top: 30px;
+}
+/*  style the juletilbud paragraph text */ 
+.juletilbud-para-text {
+    color: #e4f9ff;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+/*  style the juletilbud image */ 
+.juletilbud-header-img {
+    width: 100%;
+    max-height: fit-content;
+    padding-bottom: 30px;
+}
+/*  style the juletilbud button */ 
+.juletilbud-header-button a {
+    position: relative;
+    color: black !important;
+    box-shadow: -15px 15px black;    
+    background-color: #0dc758;
+    margin: 5px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center; 
+    text-transform: uppercase; 
+    text-decoration: none;
+}
+/*  style the juletilbud button on hover*/ 
+.juletilbud-header-button a:hover {
+    text-decoration: none;
+    background-color: magenta;
+}
+/*  style the juletilbud last paragraph text */ 
+.juletilbud-text2 {
+    padding-top: 50px;
+    margin-bottom: -15px;
+    color: #e4f9ff;
+    font-size: 0.7rem;
+    text-align: center;
+}
+/*  style the mobilabonnement header */ 
+.mobilabonnement-header{
+    color: #142591;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase; 
+}
+/*  style the mobilabonnement paragraph text */ 
+.mobilabonnement-para-text {
+    color: #3d457c;
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+/*  style the mobilabonnement header */ 
+.mobilabonnement i{
+    color: #142591;;
+}
+/*  style the mobilabonnement header for fafa-icon  */ 
+.mobilabonnement h2 {
+    color: #142591;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*  style the mobilabonnement fafa link */ 
+.abonnement a {
+    color: #3d457c;
+    font-size: 0.7rem;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+/*  style the section of julekalender  */ 
+.julekalender {
+    background-image: url('../img/julekalender.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 50px 0 40px 0;
+}
+/*  style the julekalender header color */ 
+.julekalender-header {
+    color: blanchedalmond;   
+}
+/*  style the julekalender header font-size  */ 
+.julekalender-header h1 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-family: Verdana;
+}
+/*  style the julekalender paragraph font-size  */ 
+.julekalender-header p {
+    font-weight: 200;
+    font-size: 0.8rem;
+    font-family: Verdana;
+    margin-bottom: 35px;
+}
+/*  style the julekalender button  */ 
+.julekalender-button a {
+    position: relative;
+    color: black !important;
+    box-shadow: -10px 10px black;    
+    background-color: #0dc758;
+    margin: 5px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center; 
+    text-transform: uppercase; 
+    text-decoration: none;
+}
+/*  style the hover on julekalender button  */ 
+.julekalender-button a:hover {
+    text-decoration: none;
+    background-color: rgb(230, 159, 7);
+}
+/*  style the smart section  */ 
+.smart {
+    background-color: #0dc758; 
+}
+/*  style the image for smart section */ 
+.smart-img { 
+    width: 100%;
+    height: fit-content;
+}
+/*  style the background color for footer section  */ 
+.telmore-footer {    
+    background-color: rgb(21, 21, 179);
+}
+/*  style the footer header  */ 
+.footer-header {    
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: whitesmoke;
+}
+/*  style the list item footer section */ 
+.list-footer {
+    font-size: 0.6rem;
+    font-weight: 200;
+    color: white;
+}
+/*  style the listed item footer section */ 
+.telmore-footer  dl li{
+    list-style: none;
+
+}
+/*  style the media screen for footer section */ 
+@media screen and (max-width: 720px) {
+    .telmore-footer {
+        text-align: center;
+    }
+  }
